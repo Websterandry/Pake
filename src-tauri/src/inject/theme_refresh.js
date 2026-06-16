@@ -27,8 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       body.getAttribute("data-theme") === "light" ||
       doc.style.colorScheme === "light";
 
-    if (isDark) mode = "dark";
-    else if (isLight) mode = "light";
+    //if (isDark) mode = "dark";
+    //else if (isLight) 
+    mode = "light";
 
     // Only invoke Rust command if an explicit theme override is detected
     if (mode && window.__TAURI__?.core) {
