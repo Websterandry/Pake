@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       doc.style.colorScheme === "light";
 
     //if (isDark) mode = "dark";
-    //else if (isLight) 
+    //else if (isLight)
     mode = "light";
 
     // Only invoke Rust command if an explicit theme override is detected
