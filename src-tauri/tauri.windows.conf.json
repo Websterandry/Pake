@@ -1,11 +1,4 @@
 {
-  "app": {
-    "windows": [
-      {
-        "theme": "Light"
-      }
-    ]
-  },
   "bundle": {
     "icon": ["png/weekly_256.ico", "png/weekly_32.ico"],
     "active": true,
