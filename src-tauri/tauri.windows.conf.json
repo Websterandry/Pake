@@ -1,4 +1,11 @@
 {
+  "app": {
+    "windows": [
+      {
+        "theme": "Light"
+      }
+    ]
+  },
   "bundle": {
     "icon": ["png/weekly_256.ico", "png/weekly_32.ico"],
     "active": true,
@@ -6,7 +13,6 @@
     "targets": ["msi"],
     "windows": {
       "digestAlgorithm": "sha256",
-      "theme": "Light",
       "wix": {
         "language": ["en-US"],
         "template": "assets/main.wxs"
